@@ -104,3 +104,22 @@ button{
 .cancel-btn:hover{
     color: var(--first-color);
 }
+
+@media (max-width:490px) {
+    body{
+        background: url('../images/pattern-background-mobile.svg') top / 100% no-repeat;
+        background-color: #E0E8FF;
+    }
+    .order_block{
+        max-width: 330px;
+    }
+    .order_content{
+        padding: 30px 30px;
+    }
+    .order_title{
+        font-size: 25px;
+    }
+    .plan_info{
+        font-size: 15px;
+    }
+}
