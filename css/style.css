@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inconsolata:wght@200..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+:root{
+    --first-color:hsl(223, 47%, 23%);
+    --secong-color: hsl(224, 23%, 55%);
+    --third-color:hsl(245, 75%, 52%);
+    --hover-color:#766CF1;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Figtree", sans-serif;
+}
+body{
+    height: 100vh;
+    background: url('../images/pattern-background-desktop.svg') top / 100% no-repeat;
+    background-color: #E0E8FF;
+}
+button{
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    background: none;
+    border: none;
+}
+.order_block{
+    margin: auto;
+    margin-top: 15vh;
+    max-width: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 5px #D6E1FF;
+}
+
+.illustration_hero{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.order_content{
+    padding: 30px 50px;
+    text-align: center;
+}
+.order_title{
+    font-size: 30px;
+    color: var(--first-color);
+}
+.order_description{
+    color: var(--secong-color);
+    margin-top: 15px;
+}
+
+.order_plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+.plan_info{
+    margin-left: 20px;
+    flex-grow: 1;
+    line-height: 25px;
+    font-weight: 900;
+    font-size: 17px;
+    text-align: left;
+    color: var(--first-color);
+}
+.plan_price{
+    font-weight: 500;
+    color: var(--secong-color);
+}
+.change-btn{
+    color: var(--third-color);
+    text-decoration: underline;
+}
+.change-btn:hover{
+    color: var(--hover-color);
+    text-decoration: none;
+}
+
+.pay-btn{
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    padding: 15px;
+    color: #fff;
+    background-color: var(--third-color);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 #776cf1ab;
+}
+
+.pay-btn:hover{
+    background-color: var(--hover-color);
+}
+.cancel-btn{
+    margin-top: 30px;
+    color: var(--secong-color);
+}
+
+.cancel-btn:hover{
+    color: var(--first-color);
+}
